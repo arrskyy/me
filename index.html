@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Keren</title>
+    <style>
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(BC1.jpg);
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            height: 100vh;
+            width: 100vw;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            text-align: center;
+            width: 350px;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .profile-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 26px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #eee;
+            margin: 8px 0;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            padding: 8px 15px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .social-links a:hover {
+            background: #fff;
+            color: #6a11cb;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <img src="pp.jpg" alt="Foto Profil" class="profile-photo">
+            <h1>Aria Kusuma</h1>
+            <p>Alamat: <strong>Bogor</strong></p>
+            <p>Email: <strong>ayatumehhh19@gmail.com</strong></p>
+            <p>Nomor HP: <strong>0856 1647 326</strong></p>
+            <p>Hobi: <strong>Badminton</strong></p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ar.yaksm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+                <a href="https://www.tiktok.com/@ku5umaa?is_from_webapp=1&sender_device=pc" target="_blank">Tiktok</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
